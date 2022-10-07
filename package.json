@@ -24,7 +24,7 @@
   },
   "scripts": {
     "wdio": "wdio run wdio.conf.js",
-    "test-allure": "mocha --reporter mocha-allure-reporter --timeout=30000",
-    "test": "mocha --reporter spec --timeout=30000"
+    "test-allure": "mocha test/api/*.js --reporter mocha-allure-reporter --timeout=30000",
+    "test": "mocha test/api/*.js --reporter spec --timeout=30000"
   }
 }
