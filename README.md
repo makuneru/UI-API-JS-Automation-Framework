@@ -20,6 +20,7 @@
 4. Clone this project repository
 5. Open new terminal
 6. Install all dependencies using -> npm install
-7. Run all test using this command: 
-    for API: npm run test 
-    for UI:  npm run wdio
+7. Run all test using this command:
+   for API: npm run test
+   for UI: npm run wdio
+8. to open allure report -> allure generate allure-results --clean && allure open
