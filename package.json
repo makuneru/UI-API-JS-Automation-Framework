@@ -1,10 +1,10 @@
 {
-  "name": "webdriverio-tests",
+  "name": "webdriverio-axios-ui-api-tests",
   "version": "0.1.0",
-  "description": "",
+  "description": "UI and API first test",
   "private": true,
   "keywords": [],
-  "author": "",
+  "author": "makuneru",
   "license": "ISC",
   "devDependencies": {
     "@wdio/allure-reporter": "^7.25.1",
