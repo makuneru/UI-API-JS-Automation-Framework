@@ -7,7 +7,7 @@ describe("duckduckgo search", () => {
     await duckduckgoPage.searchTextBox.setValue("toptal");
 
     await duckduckgoPage.searchButton.click();
-    await duckduckgoPage.duckduckgoWebsite.click();
+    await duckduckgoPage.toptalWebsite.click();
 
     await expect(browser).toHaveUrl("https://www.toptal.com/");
   });
